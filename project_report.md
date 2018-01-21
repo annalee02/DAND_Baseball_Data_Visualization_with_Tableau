@@ -14,7 +14,9 @@ In the workbook, there is a story to convey important findings about 1,157 baseb
 |---------------------:|-----------------------:|
 |Chart type            |Horizontal bars         |
 |Visual encodings      |Length, Color saturation|
-|Legends               |Color (HR)              |
+|Legends               |Color (Home runs)       |
+
+**Reason for selection**: The main reason that I chose a bar chart is to __compare__ one variable, "Home runs" with a few items such as "Handedness" and "Name".  To do this, a horizontal bar was a better choice than vertical one so that rows can have several items. Since "Home runs" is ordered data, I chose length and color saturation as visual encodings.
 
 * Top 10 Performers:
 
@@ -24,6 +26,8 @@ In the workbook, there is a story to convey important findings about 1,157 baseb
 |Visual encodings      |Size, Color hue         |
 |Legends               |Color (Handedness)      |
 
+**Reason for selection**: Bubble chart is perfect to show __relationships__ between 3 variables including "Name", "Handedness", and "Home runs times Batting Average". Color hue was chosen for "Handedness" because it is nominal data.
+
 * Height and Weight:
 
 |Design                |Choices                   |
@@ -32,6 +36,8 @@ In the workbook, there is a story to convey important findings about 1,157 baseb
 |Visual encodings      |Color saturation, position|
 |Legends               |Color (Homeruns times Batting Average)|
 
+**Reason for selection**: This Scatter plot is to show the data __distribution__. It helps me to display not only median with quartiles but also each data point's position(height and weight) and color (performance score).
+
 * Home runs vs. Batting Avg:
 
 |Design                |Choices                   |
@@ -39,6 +45,8 @@ In the workbook, there is a story to convey important findings about 1,157 baseb
 |Chart type            |Scatter plot              |
 |Visual encodings      |Color hue, shape, position|
 |Legends               |Color, Shape (Handedness) |
+
+**Reason for selection**: I used color hue and shape at the same time for "Handedness" in order to figure out each group's  position (__distribution__) and trend easily with regards to their performance.
 
 * Dashboard 1: Top 10 Performers + Home runs vs. Batting Avg
 * Dashboard 2: Height and Weight + Home Run Leaders
